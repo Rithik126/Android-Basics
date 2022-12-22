@@ -26,7 +26,10 @@ class MainActivity : AppCompatActivity() {
 
         var name = nameeditxt.text.toString()
 
-        Toast.makeText(this,name,Toast.LENGTH_LONG).show()
-
+        Toast.makeText(this,name,Toast.LENGTH_LONG).show()     
+    fun main() {
+        var name="rithik"
+        print(name)
+    }
     }
 }
